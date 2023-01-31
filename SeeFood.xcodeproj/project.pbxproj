@@ -13,6 +13,7 @@
 		EF7F1A002988C288002987B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7F19FE2988C288002987B9 /* Main.storyboard */; };
 		EF7F1A022988C289002987B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7F1A012988C289002987B9 /* Assets.xcassets */; };
 		EF7F1A052988C289002987B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7F1A032988C289002987B9 /* LaunchScreen.storyboard */; };
+		EF7F1A0D2988C2A4002987B9 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EF7F1A0C2988C2A4002987B9 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF7F1A012988C289002987B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7F1A042988C289002987B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF7F1A062988C289002987B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7F1A0C2988C2A4002987B9 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EF7F1A012988C289002987B9 /* Assets.xcassets */,
 				EF7F1A032988C289002987B9 /* LaunchScreen.storyboard */,
 				EF7F1A062988C289002987B9 /* Info.plist */,
+				EF7F1A0C2988C2A4002987B9 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7F19FD2988C288002987B9 /* ViewController.swift in Sources */,
+				EF7F1A0D2988C2A4002987B9 /* Inceptionv3.mlmodel in Sources */,
 				EF7F19F92988C288002987B9 /* AppDelegate.swift in Sources */,
 				EF7F19FB2988C288002987B9 /* SceneDelegate.swift in Sources */,
 			);
