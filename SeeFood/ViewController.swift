@@ -33,7 +33,7 @@ extension ViewController: UIImagePickerControllerDelegate {
             guard let ciImage = CIImage(image: userPickedImage) else {
                 fatalError("Could not convert to CIImage")
             }
-            
+
             detect(image: ciImage)
         }
 
@@ -50,7 +50,13 @@ extension ViewController: UIImagePickerControllerDelegate {
                 fatalError("Model failed to process image.")
             }
 
-            print(results)
+            if let firstResult = results.first {
+                if firstResult.identifier.contains("hotdog") {
+                    self.navigationItem.title = "Hotdog!"
+                } else {
+                    self.navigationItem.title = "Not Hotdog!"
+                }
+            }
         }
 
         let handler = VNImageRequestHandler(ciImage: image)
